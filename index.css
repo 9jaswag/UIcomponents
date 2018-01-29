@@ -36,3 +36,16 @@ html, body {
   color: #FDFFFC;
   transition: background-color 0.5s;
 }
+
+.btn-secondary {
+  border: 2px solid #2EC4B6;
+  background-color: #2EC4B6;
+  color: #FDFFFC;
+}
+
+.btn-secondary:hover {
+  background: transparent;
+  border-color: #FDFFFC;
+  color: #FDFFFC;
+  transition: background-color 0.5s;
+}
