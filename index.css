@@ -1,0 +1,38 @@
+/* https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c */
+
+html, body {
+  background: #011627;
+}
+
+/* override bootstrap button styles */
+.btn {
+  padding: .6em 1em;
+  border: none;
+  border-radius: 0.1rem;
+  color: #FDFFFC;
+  background: transparent;
+  text-transform: uppercase;
+  outline-color: transparent;
+}
+
+.btn:hover {
+  background: transparent;
+}
+
+.btn:focus, .btn:active {
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary {
+  border: 2px solid #E71D36;
+  background-color: #E71D36;
+  color: #FDFFFC;
+}
+
+.btn-primary:hover {
+  background: transparent;
+  border-color: #FDFFFC;
+  color: #FDFFFC;
+  transition: background-color 0.5s;
+}
