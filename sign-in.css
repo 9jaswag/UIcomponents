@@ -11,12 +11,12 @@
 @media (min-width: 768px) {
   .auth-box {
     margin: 0 auto;
-    margin-top: 11rem;
+    margin-top: 9rem;
   }
 
   /* sign up page style */
   .auth-box.sign-up {
-    margin-top: 9rem;
+    margin-top: 6rem;
   }
 }
 

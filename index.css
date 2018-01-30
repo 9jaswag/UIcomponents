@@ -1,4 +1,5 @@
 /* https://coolors.co/011627-fdfffc-2ec4b6-e71d36-ff9f1c */
+/* this file contains styles for the navbar component */
 
 html, body {
   background: #011627;
@@ -64,6 +65,21 @@ html, body {
 }
 
 iframe {
-  width: 100%;
-  height: 100%; 
+  width: 90%;
+  height: 90%; 
+}
+
+/* navbar styles */
+.navbar-brand, .nav-item.nav-link {
+  color: #2EC4B6 !important;
+}
+
+.navbar-brand:hover, .nav-item.nav-link:hover {
+  color: #E71D36 !important;
+}
+
+.navbar-toggler {
+  background: #2EC4B6 !important;
+  border-color: unset;
+  outline: none !important;
 }
