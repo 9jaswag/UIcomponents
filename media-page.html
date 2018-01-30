@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- icon cdn -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="media-page.css">
+  <title>MEDIA PAGE</title>
+</head>
+<body>
+
+  <header class="container mb-3">
+    <nav class="navbar navbar-expand-sm navbar-light bg-transparent">
+      <a class="navbar-brand" href="./index.html">VideoAPP</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarToggle">
+        <div class="navbar-nav ml-md-auto d-md-flex">
+          <a class="nav-item nav-link" href="/profile">My Profile</a>
+          <a class="nav-item nav-link" href="#">Submit</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="container text-center">
+    <div class="mx-auto videoContainer media-container">
+      <iframe width="1920" height="1080" src="https://www.youtube.com/embed/5I1v7aXYitI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <p class="rating">Rated: 4.5/5</p>
+    <div class="review-box col-12 col-md-8 mx-auto position-relative">
+      <!-- review textarea and icons -->
+      <textarea name="" id="video-review" cols="30" rows="10" placeholder="Leave a review"></textarea>
+      <div class="review__section">
+        <div class="col-6 review__stars">
+          <input type="radio" name="rating" id="star-5" required>
+          <label for="star-5"></label>
+          <input type="radio" name="rating" id="star-4" required>
+          <label for="star-4"></label>
+          <input type="radio" name="rating" id="star-3" required>
+          <label for="star-3"></label>
+          <input type="radio" name="rating" id="star-2" required>
+          <label for="star-2"></label>
+          <input type="radio" name="rating" id="star-1" required>
+          <label for="star-1"></label>
+        </div>
+        <div class="col-6 p-0">
+          <button class="btn btn-tertiary btn-block review-btn">Submit Review</button>
+        </div>
+      </div>
+    </div>
+    <!-- review comment section -->
+    <div class="review-comments mt-5  col-12 col-md-8 mx-auto position-relative">
+      <h3>Reviews</h3>
+      <ul class="comment-list">
+        <li><span class="comment__author">Brainystorm: </span> This is good, keep it up</li>
+        <li><span class="comment__author">Brainystorm: </span> This is good, keep it up</li>
+        <li><span class="comment__author">Brainystorm: </span> This is good, keep it up</li>
+      </ul>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

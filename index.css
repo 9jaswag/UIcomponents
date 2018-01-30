@@ -7,7 +7,7 @@ html, body {
 
 /* override bootstrap button styles */
 .btn {
-  padding: .6em 1em;
+  padding: 0.3em 1em;
   border: none;
   border-radius: 0.1rem;
   color: #FDFFFC;
