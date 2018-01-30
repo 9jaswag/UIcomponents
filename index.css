@@ -50,6 +50,14 @@ html, body {
   transition: background-color 0.5s;
 }
 
+.btn-tertiary {
+  background: #011627;
+}
+
+.btn-tertiary:hover {
+  background: #2EC4B6
+}
+
 .videoContainer {
   /* position: absolute; */
   width: 80vw;

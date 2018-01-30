@@ -1,0 +1,57 @@
+
+/* @media (max-width: 768px) { */
+.auth-box {
+  background-color: #FDFFFC;
+  height: 25rem;
+  border-radius: 8px;
+  margin-top: 10rem;
+  box-shadow: 1px 1px 6px #E9ECEF;
+}
+/* } */
+
+@media (min-width: 768px) {
+  .auth-box {
+    margin: 0 auto;
+    margin-top: 11rem;
+  }
+}
+
+.auth-box h3 {
+  font-size: 24px;
+  font-weight: 200;
+  line-height: 1.1;
+  color: #011627;
+}
+
+input[type=text], input[type=email], input[type=password] {
+  font-weight: 200 !important;
+}
+
+.auth-box-footer {
+  width: 100%;
+  background: whitesmoke;
+  height: 4rem;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid #ececec;
+  font-weight: 200;
+  text-decoration: none;
+  color: #011627;
+}
+
+.auth-box-footer:hover {
+  text-decoration: none;
+  color: #011627;  
+}
+
+.auth-box-footer span {
+  text-decoration: none;
+  color: #E71D36;
+}
