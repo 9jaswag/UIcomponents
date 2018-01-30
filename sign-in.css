@@ -1,5 +1,5 @@
+/* styles here are used for both sign up and sign in page */
 
-/* @media (max-width: 768px) { */
 .auth-box {
   background-color: #FDFFFC;
   height: 25rem;
@@ -7,12 +7,16 @@
   margin-top: 10rem;
   box-shadow: 1px 1px 6px #E9ECEF;
 }
-/* } */
 
 @media (min-width: 768px) {
   .auth-box {
     margin: 0 auto;
     margin-top: 11rem;
+  }
+
+  /* sign up page style */
+  .auth-box.sign-up {
+    margin-top: 9rem;
   }
 }
 
@@ -54,4 +58,10 @@ input[type=text], input[type=email], input[type=password] {
 .auth-box-footer span {
   text-decoration: none;
   color: #E71D36;
+}
+
+
+/* sign up style */
+.auth-box.sign-up {
+  height: 31rem;
 }
