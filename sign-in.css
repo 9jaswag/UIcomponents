@@ -27,7 +27,7 @@
   color: #011627;
 }
 
-input[type=text], input[type=email], input[type=password] {
+input[type=text], input[type=email], input[type=password], input[type=url] {
   font-weight: 200 !important;
 }
 

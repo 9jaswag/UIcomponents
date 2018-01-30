@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- icon cdn -->
+  <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
   <title>HOME</title>
@@ -19,7 +21,7 @@
         <div class="collapse navbar-collapse" id="navbarToggle">
           <div class="navbar-nav ml-md-auto d-md-flex">
             <a class="nav-item nav-link" href="/profile">My Profile</a>
-            <a class="nav-item nav-link" href="#">Submit</a>
+            <a class="nav-item nav-link" href="#" data-toggle="modal" data-target="#submitModal">Submit</a>
           </div>
         </div>
       </nav>
@@ -32,6 +34,56 @@
     <a href="./sign-in.html" class="btn btn-primary mt-1 mb-1">Log in</a> &nbsp; &nbsp;
     <a href="./sign-up.html" class="btn btn-primary mt-1 mb-1">Sign up</a>
   </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="submitModal" tabindex="-1" role="dialog" aria-labelledby="submitModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Add Media</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form class="px-3 py-5">
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="ion ion-ios-musical-note"></i></div>
+              </div>
+              <input type="text" class="form-control form-control-sm" id="title" required placeholder="Title">
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="ion ion-ios-videocam"></i></div>
+              </div>
+              <select required class="custom-select custom-select-sm">
+                <option selected>YouTube</option>
+                <option value="1">Vimeo</option>
+                <option value="2">DailyMotion</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <div class="input-group-text"><i class="ion ion-link"></i></div>
+              </div>
+              <input type="url" class="form-control form-control-sm" id="link" required placeholder="Link">
+            </div>
+          </div>
+          <button type="submit" class="btn btn-tertiary btn-block">Add Media</button>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

@@ -83,3 +83,12 @@ iframe {
   border-color: unset;
   outline: none !important;
 }
+
+/* style for submit media modal */
+.modal-footer .btn-secondary:hover {
+  background: #E71D36;
+}
+
+.modal-header h5 {
+  font-weight: 200;
+}
