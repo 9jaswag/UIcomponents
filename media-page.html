@@ -29,27 +29,35 @@
   </header>
 
   <div class="container text-center">
-    <div class="mx-auto videoContainer media-container">
+    <div class="mx-auto videoContainer media-container mb-5">
       <iframe width="1920" height="1080" src="https://www.youtube.com/embed/5I1v7aXYitI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="position-relative">
+        <div class="video-author">
+          <span>Author of the media: Title of the media file </span>
+        </div>
+      </div>
     </div>
     <p class="rating">Rated: 4.5/5</p>
-    <div class="review-box col-12 col-md-8 mx-auto position-relative">
-      <!-- review textarea and icons -->
+    <!-- rating stars -->
+    <div class="container text-center">
+      <div class="review__stars">
+        <input type="radio" name="rating" id="star-5" required>
+        <label for="star-5"></label>
+        <input type="radio" name="rating" id="star-4" required>
+        <label for="star-4"></label>
+        <input type="radio" name="rating" id="star-3" required>
+        <label for="star-3"></label>
+        <input type="radio" name="rating" id="star-2" required>
+        <label for="star-2"></label>
+        <input type="radio" name="rating" id="star-1" required>
+        <label for="star-1"></label>
+      </div>
+    </div>
+    <!-- review textarea and submit button -->
+    <div class="review-box col-12 col-md-8 mx-auto position-relative mt-5">
       <textarea name="" id="video-review" cols="30" rows="10" placeholder="Leave a review"></textarea>
       <div class="review__section">
-        <div class="col-6 review__stars">
-          <input type="radio" name="rating" id="star-5" required>
-          <label for="star-5"></label>
-          <input type="radio" name="rating" id="star-4" required>
-          <label for="star-4"></label>
-          <input type="radio" name="rating" id="star-3" required>
-          <label for="star-3"></label>
-          <input type="radio" name="rating" id="star-2" required>
-          <label for="star-2"></label>
-          <input type="radio" name="rating" id="star-1" required>
-          <label for="star-1"></label>
-        </div>
-        <div class="col-6 p-0">
+        <div class="col-12 p-0">
           <button class="btn btn-tertiary btn-block review-btn">Submit Review</button>
         </div>
       </div>
