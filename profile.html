@@ -8,8 +8,9 @@
   <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="index.css">
-  <link rel="stylesheet" href="sign-in.css">
-  <title>SIGN IN</title>
+  <link rel="stylesheet" href="media-page.css">
+  <link rel="stylesheet" href="profile.css">
+  <title>MEDIA LIST</title>
 </head>
 <body>
 
@@ -29,29 +30,34 @@
   </header>
 
   <div class="container">
-    <div class="row px-2">
-      <div class="col-12 col-md-5 auth-box">
-          <h3 class="text-center mt-4">Log in to your account</h3>
-          <form class="px-3 py-5">
-            <div class="form-group">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text"><i class="ion ion-person"></i></div>
-                </div>
-                <input type="text" class="form-control form-control-lg" id="username" placeholder="Username">
-              </div>
+    <div class="mt-5 profile col-12 col-md-8 mx-auto position-relative">
+      <h3 class="text-center">Olawale's Profile</h3>
+      <div class="row px-2 mt-5">
+        <div class="col-12 col-md-12 profile-box">
+          <p>Name: Olawale</p>
+          <p>Username: Brainyfarm</p>
+          <p>Joined: Aug 12, 2013</p>
+          <p>Last Login: Jan 25, 2018</p>
+
+          <div class="row mt-5 media-detail">
+            <div class="col-12 col-sm-6">
+              <h5>Media Shared</h5>
+              <ul>
+                <li><a href="#">Kill em all</a></li>
+                <li><a href="#">Kill em all</a></li>
+                <li><a href="#">Kill em all</a></li>
+              </ul>
             </div>
-            <div class="form-group">
-              <div class="input-group">
-                <div class="input-group-prepend">
-                  <div class="input-group-text"><i class="ion ion-eye"></i></div>
-                </div>
-                <input type="password" class="form-control form-control-lg" id="password" placeholder="Password">
-              </div>
+            <div class="col-12 col-sm-6">
+              <h5>Media Reviewed</h5>
+              <ul>
+                <li><a href="#">Kill em all</a></li>
+                <li><a href="#">Kill em all</a></li>
+                <li><a href="#">Kill em all</a></li>
+              </ul>             
             </div>
-            <button type="submit" class="btn btn-tertiary btn-block">Login</button>
-          </form>
-          <a href="./sign-up.html" class="auth-box-footer">Don't have an account yet? &nbsp;<span>Sign Up</span></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
