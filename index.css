@@ -34,7 +34,7 @@ html, body {
 .btn-primary:hover {
   background: transparent;
   border-color: #FDFFFC;
-  color: #FDFFFC;
+  color: #e72337;
   transition: background-color 0.5s;
 }
 
@@ -46,8 +46,8 @@ html, body {
 
 .btn-secondary:hover {
   background: transparent;
-  border-color: #FDFFFC;
-  color: #FDFFFC;
+  border-color: #2EC4B6;
+  color: #2EC4B6;
   transition: background-color 0.5s;
 }
 
@@ -92,3 +92,16 @@ iframe {
 .modal-header h5 {
   font-weight: 200;
 }
+
+.badge-primary {
+  background-color: #2EC4B6;
+}
+
+a, .page-link {
+  color: #2EC4B6;
+}
+
+a:hover, .page-link:hover {
+  color: #E71D36;
+}
+
